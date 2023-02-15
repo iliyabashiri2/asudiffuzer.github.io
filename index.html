@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asudiffuzer</title>
+    <link type="text/css" rel="stylesheet" href ="11.css">
+
+</head>
+<body>
+    
+   
+<section id="banner">
+
+    </section>
+<section>
+    <ul class="card-list">
+  
+        <li class="card">
+          <a class="card-image" href="prozhe1.html" target="_blank" style="background-image: url(93.png);" >
+            <!-- <img src="93.png" alt="Psychopomp" /> -->
+          </a>
+          <a class="card-description" href="prozhe1.html" target="_blank">
+            <h2>پروژه ها</h2>
+            <!-- <p>Japanese Breakfast</p> -->
+          </a>
+        </li>
+        
+        <li class="card">
+          <a class="card-image" href="prozhe3.html" target="_blank" style="background-image: url(92.png);" >
+            <img src="" alt="let's go" />
+          </a>
+          <a class="card-description" href="prozhe3.html" target="_blank">
+            <h2>محصولات</h2>
+            <!-- <p>In Love With A Ghost</p> -->
+          </a>
+        </li>
+        
+        <li class="card">
+          <a class="card-image" href="prozhe2.html" target="_blank" style="background-image: url(95.png);" >
+            <img src="" alt="The Beautiful Game" />
+          </a>
+          <a class="card-description" href="prozhe2.html" target="_blank">
+            <h2>توضیحات</h2>
+            <!-- <p>Vulfpeck</p> -->
+          </a>
+        </li>
+        
+        <!-- <li class="card">
+          <a class="card-image" href="https://convergecult.bandcamp.com/album/jane-doe" target="_blank" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-100.jpg);" data-image-full="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-500.jpg">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-100.jpg" alt="Jane Doe" />
+          </a>
+          <a class="card-description" href="https://convergecult.bandcamp.com/album/jane-doe" target="_blank">
+            <h2>Jane Doe</h2>
+            <p>Converge</p>
+          </a>
+        </li> -->
+        
+      </ul>
+      
+    <script>
+        window.addEventListener('load', function() {
+      
+      // setTimeout to simulate the delay from a real page load
+      setTimeout(lazyLoad, 1000);
+      
+    });
+    
+    function lazyLoad() {
+      var card_images = document.querySelectorAll('.card-image');
+      
+      // loop over each card image
+      card_images.forEach(function(card_image) {
+        var image_url = card_image.getAttribute('data-image-full');
+        var content_image = card_image.querySelector('img');
+        
+        // change the src of the content image to load the new high res photo
+        content_image.src = image_url;
+        
+        // listen for load event when the new photo is finished loading
+        content_image.addEventListener('load', function() {
+          // swap out the visible background image with the new fully downloaded photo
+          card_image.style.backgroundImage = 'url(' + image_url + ')';
+          // add a class to remove the blur filter to smoothly transition the image change
+          card_image.className = card_image.className + ' is-loaded';
+        });
+        
+      });
+      
+    }
+    </script>  
+
+</section>
+<section>
+  <ul class="card-listttt">
+
+      <li class="cardddd">
+       
+        <a class="card-descriptionnnn" >
+          <h2>درباره شرکت</h2>
+          <p class="matnsherkat">شرکت اسو دیفیوزر اولین تولید کننده دیفیوزر های هوادهی در ایران 
+            این شرکت در سال 1398 تاسیس گشته و تا به امروز بیش از ۱۰۰۰ مزرعه در سراسر کشور را تجهیز به سیستم هوادهی بلوئیر و دیفیوزر نموده است.
+            شرکت اسو دیفیوزر محصولات خود را با پنج سال ضمانت و گارانتی ارائه میکند.
+            این شرکت با در نظر گرفتن مشاوران مجرب این امکان را برای پرورش دهندگان محترم فراهم نموده تا محصولی که مناسب مزرعه خودشان هست را به راحتی انتخاب کنند و خرید رضایتمندی داشته باشند.
+            </p>
+        </a>
+      </li>
+  
+    </ul>
+    
+  <script>
+      window.addEventListener('load', function() {
+    
+    // setTimeout to simulate the delay from a real page load
+    setTimeout(lazyLoad, 1000);
+    
+  });
+  
+  function lazyLoad() {
+    var card_images = document.querySelectorAll('.card-image');
+    
+    // loop over each card image
+    card_images.forEach(function(card_image) {
+      var image_url = card_image.getAttribute('data-image-full');
+      var content_image = card_image.querySelector('img');
+      
+      // change the src of the content image to load the new high res photo
+      content_image.src = image_url;
+      
+      // listen for load event when the new photo is finished loading
+      content_image.addEventListener('load', function() {
+        // swap out the visible background image with the new fully downloaded photo
+        card_image.style.backgroundImage = 'url(' + image_url + ')';
+        // add a class to remove the blur filter to smoothly transition the image change
+        card_image.className = card_image.className + ' is-loaded';
+      });
+      
+    });
+    
+  }
+  </script>  
+  
+</section>
+<section>
+  
+</section>
+<section class="commenttt">
+  <div class="vs-container">
+
+    <!-- FIRST VERTICAL SCROLLING BEGIN -->
+    <div class="vs-wrapper">
+      <div class="vs-carousel">
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="172.png" alt="two">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-titlee">توضیح</span>
+            <span class="vs-carousel__item-descriptionn">
+
+              اگه رو کادری که داخلش اسامی نوشته شده کلیک کنید می تونید ویدیو این صحبت هارو از تو اینستاگرام ببینید </span>
+          </div>
+        </div>
+  
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CdSVRVVIlJV/" target="_blank" class="commentt">جناب آقای مهندس بلالی</a></span>
+            <span class="vs-carousel__item-description">با دیفیوزر های شما اکسیژن محلول در آب به 9ppm رسیده ممنون از دیفیوزر های عالیتون</span>
+          </div>
+        </div>
+  
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CgOmC5vIz88/" target="_blank" class="commentt">جناب اقای طبیب نژاد</a></span>
+            <span class="vs-carousel__item-description">
+
+              کیفیت دیفیوزر شما خیلی خوب بود مهم تر از اون نوع برخورد و رفتار شما
+              با مشتری بود و تعهد شما نسبت به مشتری
+              </span>
+          </div>
+        </div>
+  
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CeiYA9rIClu/" target="_blank" class="commentt">جناب اقای اسماعیلی</a></span>
+            <span class="vs-carousel__item-description">
+
+              کارکرد دیفیوزر ها فوق العاده است مخصوصا پانچ هایی که روش میزنید واقعا با شرکت های دیگه فرق داره</span>
+          </div>
+        </div>
+  
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CbryaJsoiEB/" target="_blank" class="commentt">جناب اقای بهرامی</a></span>
+            <span class="vs-carousel__item-description">
+
+              کارکرد دیفیوزر ها خیلی خوب خیلی عالی و یک مزیتی که داره موقع غذا دادن به ماهی ها نیازی به خاموش کردن دیفیوزر نیست</span>
+          </div>
+        </div>
+  
+     
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CZRLQJfs8tU/" target="_blank" class="commentt" >جناب اقای رفیع زاده</a></span>
+            <span class="vs-carousel__item-description">
+
+              بابت دستگاه هایی که فرستادید ممنون و سپاس گزارم واقها فوق العادس طرحتون امیدوارم روز به روز موفقیت های بیشتری داشته باشید</span>
+          </div>
+        </div>
+
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CVcF7Fmoerp/" target="_blank" class="commentt"> جناب اقای مهندس رحمتی</a></span>
+            <span class="vs-carousel__item-description">
+
+              وقتی مقدار اکسیژن خروجی استخرهارو اندازه میگیریم اکسیژن محلول در آب به 8ppm رسیده که نشان دهنده سیستم هوادهی مناسب دیفیوزر هاست</span>
+          </div>
+        </div>
+
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CSSqaC_oBjr/" target="_blank" class="commentt">جناب اقای تقی پور</a></span>
+            <span class="vs-carousel__item-description">
+
+              از وقتی دیفیوزر های شما رو نصب کردیم تعداد تلفات ماهی های ما کم شده و به صفر رسیده ممنون از آقای مهندس شاهی</span>
+          </div>
+        </div>
+
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CRT7cgpIOsN/" target="_blank" class="commentt">جناب اقای عرب</a></span>
+            <span class="vs-carousel__item-description">
+
+              دیفیوزر ها خیلی قشنگ کار میکنه و هوادهی خیلی جالبی داره و نسبت به اسپلش خیلی بهتره</span>
+          </div>
+        </div>
+
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="170.png" alt="one">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title"><a href="https://www.instagram.com/p/CNMsv5Vp3FT/" target="_blank" class="commentt">جناب آقای مهندس رئیسیان</a></span>
+            <span class="vs-carousel__item-description">
+
+              از وقتی داریم از دیفیوزر های شما استفاده میکنیم ماهی ها هم بهتر غذا می خورن هم رشد خیلی خوبی داشتن ممنون از شما</span>
+          </div>
+        </div>
+
+      
+  </div>
+</div>
+    <!-- FIRST VERTICAL SCROLLING END -->
+  
+    <!--
+  SECOND VERTICAL REVERSE SCROLLING BEGIN
+  add class vs-reverse
+  -->
+    <!-- <div class="vs-wrapper">
+      <div class="vs-carousel vs-reverse">
+  
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="https://picsum.photos/200" alt="five">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title">FIVE</span>
+            <span class="vs-carousel__item-description">Description 5</span>
+          </div>
+        </div>
+  
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="https://picsum.photos/200" alt="six">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title">SIX</span>
+            <span class="vs-carousel__item-description"><a href="https://www.instagram.com/asudiffuzer/">کیفیت دیفیوزر شما خیلی خوب بود مهم تر از اون نوع برخورد و رفتار شما
+              با مشتری بود و تعهد شما نسبت به مشتری</a></span>
+          </div>
+        </div>
+  
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="https://picsum.photos/200" alt="seven">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title">SEVEN</span>
+            <span class="vs-carousel__item-description">Description 7</span>
+          </div>
+        </div>
+  
+        <div class="vs-carousel__item cursor-pointer" data-href="#" data-target="_blank" onclick="if (this.dataset.href !== '#') window.open(this.dataset.href, this.dataset.target);">
+          <img class="vs-carousel__item-head" src="https://picsum.photos/200" alt="eight">
+          <div class="vs-carousel__item-body">
+            <span class="vs-carousel__item-title">EIGHT</span>
+            <span class="vs-carousel__item-description">Description 8</span>
+          </div>
+        </div>
+  
+      </div>
+    </div> -->
+    <!-- SECOND VERTICAL REVERSE SCROLLING END -->
+  
+  </div>
+  <script>
+    let VerticalCarousel = function (element) {
+  this.slideUp = function () {
+    let sliders = document.querySelectorAll(element);
+
+    if (sliders && sliders !== null && sliders.length > 0) {
+      sliders.forEach((el) => {
+        if (el.classList.contains("vs-reverse")) {
+          el.firstElementChild.classList.add("vs-previous-reverse");
+          let initClone = el
+            .getElementsByClassName("vs-previous-reverse")[0]
+            .cloneNode(true);
+          el.appendChild(initClone);
+          el.firstElementChild.remove();
+
+          el.querySelector(
+            ".vs-carousel__item:nth-last-of-type(2)"
+          ).classList.add("vs-active-reverse");
+          el.querySelector(
+            ".vs-carousel__item:nth-last-of-type(3)"
+          ).classList.add("vs-next-reverse");
+
+          setInterval(function () {
+            let elClone = el
+              .getElementsByClassName("vs-previous-reverse")[0]
+              .cloneNode(true);
+            el.prepend(elClone);
+            elClone.classList.remove("vs-previous-reverse");
+            el.lastElementChild.remove();
+
+            let first = el.querySelector(".vs-active-reverse");
+            first.classList.add("vs-previous-reverse");
+            first.classList.remove("vs-active-reverse");
+
+            let second = el.querySelector(".vs-next-reverse");
+            second.classList.add("vs-active-reverse");
+            second.classList.remove("vs-next-reverse");
+
+            el.querySelector(
+              ".vs-carousel__item:nth-last-of-type(3)"
+            ).classList.toggle("vs-next-reverse");
+          }, 3000);
+        } else {
+          el.lastElementChild.classList.add("vs-previous");
+          let initCloneReverse = el
+            .getElementsByClassName("vs-previous")[0]
+            .cloneNode(true);
+          el.prepend(initCloneReverse);
+          el.lastElementChild.remove();
+
+          el.firstElementChild.nextElementSibling.classList.add("vs-active");
+          el.firstElementChild.nextElementSibling.nextElementSibling.classList.add(
+            "vs-next"
+          );
+
+          setInterval(function () {
+            let elClone = el
+              .getElementsByClassName("vs-previous")[0]
+              .cloneNode(true);
+            el.appendChild(elClone);
+            elClone.classList.remove("vs-previous");
+            el.firstElementChild.remove();
+
+            let first = el.querySelector(".vs-active");
+            first.classList.add("vs-previous");
+            first.classList.remove("vs-active");
+
+            let second = el.querySelector(".vs-next");
+            second.classList.add("vs-active");
+            second.classList.remove("vs-next");
+
+            second.nextElementSibling.classList.toggle("vs-next");
+          }, 3000);
+        }
+      });
+    }
+  };
+};
+let c = new VerticalCarousel(".vs-carousel");
+c.slideUp();
+
+  </script>
+  </section>
+<section id="mahi">
+    <div class="wrapperr">
+        <div class="fishh">
+            <div class="iconn">
+                &#128031;
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <section id="akhar">
+    <div class="textimonial-row">
+     <div class="textimonial-col">
+      <div class="user">
+        <a href="https://www.instagram.com/asudiffuzer/"><img src="oo.jpg"></a>
+      </div>  
+     </div>
+     <div class="textimonial-col">
+        <div class="user">
+            <a href="tel:09199675400"> <img src = "sh1.jpg" ></a>
+          </div>
+     </div>
+     <div class="textimonial-col">
+        <div class="user">
+            <a href="tel:09016898932"> <img src = "sh2.jpg" ></a>
+          </div>
+     </div>
+    
+    <div class="textimonial-col">
+        <div class="user">
+            <a href="tel:09122835501"> <img src = "sh3.jpg" ></a>
+          </div>
+     </div>
+</section> -->
+<section id="carddd">
+    <ul class="cardd-list">
+  
+        <li class="cardd">
+          <a class="cardd-image" href="https://www.instagram.com/asudiffuzer/" target="_blank" style="background-image: url(oo.jpg);" >
+            <img src="" alt="Psychopomp" />
+          </a>
+          <a class="cardd-description" href="https://michellezauner.bandcamp.com/album/psychopomp-2" target="_blank">
+            
+          </a>
+        </li>
+        
+        <li class="cardd">
+          <a class="cardd-image" href="tel:09199675400" target="_blank" style="background-image: url(sh1.jpg);" data-image-full="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/lets-go-500.jpg">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/lets-go-100.jpg" alt="let's go" />
+          </a>
+          <a class="cardd-description" href="https://inlovewithaghost.bandcamp.com/album/lets-go" target="_blank">
+            
+          </a>
+        </li>
+        
+        <li class="cardd">
+          <a class="cardd-image" href="tel:09016898932" target="_blank" style="background-image: url(sh2.jpg);" data-image-full="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/beautiful-game-500.jpg">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/beautiful-game-100.jpg" alt="The Beautiful Game" />
+          </a>
+          <a class="cardd-description" href="https://vulfpeck.bandcamp.com/album/the-beautiful-game" target="_blank">
+           
+          </a>
+        </li>
+        
+        <li class="cardd">
+          <a class="cardd-image" href="tel:09122835501" target="_blank" style="background-image: url(sh3.jpg);" data-image-full="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-500.jpg">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/jane-doe-100.jpg" alt="Jane Doe" />
+          </a>
+          <a class="cardd-description" href="https://convergecult.bandcamp.com/album/jane-doe" target="_blank">
+            
+          </a>
+        </li>
+        
+      </ul>
+      
+    <script>
+        window.addEventListener('load', function() {
+      
+      // setTimeout to simulate the delay from a real page load
+      setTimeout(lazyLoad, 1000);
+      
+    });
+    
+    function lazyLoad() {
+      var card_images = document.querySelectorAll('.card-image');
+      
+      // loop over each card image
+      card_images.forEach(function(card_image) {
+        var image_url = card_image.getAttribute('data-image-full');
+        var content_image = card_image.querySelector('img');
+        
+        // change the src of the content image to load the new high res photo
+        content_image.src = image_url;
+        
+        // listen for load event when the new photo is finished loading
+        content_image.addEventListener('load', function() {
+          // swap out the visible background image with the new fully downloaded photo
+          card_image.style.backgroundImage = 'url(' + image_url + ')';
+          // add a class to remove the blur filter to smoothly transition the image change
+          card_image.className = card_image.className + ' is-loaded';
+        });
+        
+      });
+      
+    }
+    </script>  
+</section>
+
+</body>
+
+
+</html>
